@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+display:inline;
+
+        margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+li {
+float:left;
+display:inline;
+    }
+
+
+a:link, a:visited {
+    display: block;
+    width: 180px;
+    height:30px;
+    font-weight: bold;
+font-size: 20;
+    color: black;
+    background-color: #faeeb8;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: pink;
+}
+</style>
+
+    <meta charset="utf-8" />
+    <title>Registration form</title>
+    <meta name="viewport" content="width=device-width, initial- scale=1.0" />
+
+    <link rel="stylesheet" type="text/css"  href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font- awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery- 1.10.2.min.js"></script>
+    <script type="text/javascript"  src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body background="fashion-background2.jpg">
+<ul>
+<li><input type="image" name="Submit" src="she-help-this.jpg"></li>
+<!--<li><font size="8">SHE-HELP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></li>-->
+  <li><a href="/first.html">Home</a></li>
+  <li><a href="/post.html">Post</a></li>
+   <li><a href="/faceit.html">Face-It</a></li>
+  <li><a href="/herstory.html">Her-Story</a><li>
+  <li><a href="/register.html">Help-Me</a></li>
+</ul>
+
+<form action="register.php" method="post">
+
+<div class="container">
+
+<div class="page-header">
+    <h1>Registration<small></small></h1>
+</div>
+
+<!-- Registration form - START -->
+<div class="container">
+    <div class="row">
+        <form role="form">
+            <div class="col-lg-6">
+                <div class="well well-sm"><strong><span  class="glyphicon glyphicon-asterisk"></span>Required  Field</strong></div>
+                <div class="form-group">
+                    <label for="Inputid">Your Name</label>
+                    <div class="input-group">
+                        <input type="integer" class="form-control"  name="t1" id="Inputid" placeholder="Your Name" required>
+                        <span class="input-group-addon"><span  class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+ <div class="form-group">
+                    <label for="Inputname">Your Phone</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control"  name="t2" id="Inputid" placeholder="Your Phone" required>
+                        <span class="input-group-addon"><span  class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Inputemp">Friend/Family Contact Number1</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control"  id="Inputdate" name="t4" placeholder="Friend/Family Contact Number1" required>
+                        <span class="input-group-addon"><span  class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Inputper">Friend/Family Contact Number2</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control"  id="Inputper" name="t5" placeholder="Friend/Family Contact Number2"  required>
+                        <span class="input-group-addon"><span  class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+   <div class="form-group">
+                    <label for="Inputsatis">Area</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control"  id="Inputsatis" name="t6" placeholder="Area"  required>
+                        <span class="input-group-addon"><span  class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+<div class="form-group">
+                    <label for="Inputwel">Nearest Police Station Contact</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control"  id="Inputwel" name="t7" placeholder="Nearest Police Station Contact"  required>
+                        <span class="input-group-addon"><span  class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+
+
+                
+                <input type="submit" name="submit" id="submit"  value="Submit" class="btn btn-info pull-right">
+            </div>
+        </form>
+        <!--<div class="col-lg-5 col-md-push-1">
+            <div class="col-md-12">
+                <div class="alert alert-success">
+                    <strong><span class="glyphicon glyphicon- ok"></span> Success! Message sent.</strong>
+                </div>
+                <div class="alert alert-danger">
+                    <span class="glyphicon glyphicon- remove"></span><strong> Error! Please check all page inputs.</strong>
+                </div>
+            </div>
+        </div>-->
+
+    </div>
+</div>
+<!-- Registration form - END -->
+
+</div>
+
+</body>
+</html>
